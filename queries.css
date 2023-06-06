@@ -1,0 +1,125 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 34em) {
+  .header {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 2rem;
+  }
+  .links {
+    font-size: 1rem;
+    padding: 0.4rem;
+    padding-left: 0;
+    
+  }
+  .logo-1 {
+    padding-left: 0%;
+    height: 3rem;
+    width: 3rem;
+
+  }
+  .hero-text {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .image {
+    height: 10rem;
+    width: 10rem;
+  }
+ 
+ .btn {
+  padding: 1rem;
+  font-size: 1rem;
+ }
+ .btn-link {
+  padding: 1rem;
+  font-size: 1rem;
+
+ } 
+
+ }
+  .about {
+    display: grid;
+    justify-content: center;
+    margin-right: 6rem;
+  }
+  .about-2 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .introduction {
+    font-size: 1.6rem;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+   
+
+  }
+  .btn-3 {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+  .btn-4 {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  margin: -4rem;
+ 
+}
+ .img-gallery {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+  
+  
+ }
+ .cards {
+  display: grid;
+  grid-template-columns: repeat(1fr,1fr,1fr);
+  
+ }
+  .text {
+    font-size: 1rem;
+  }
+  .skills {
+   max-width: 1200px;
+  }
+  .about-2 {
+    font-size: 2rem;
+    line-height: 90%;
+  }
+  .text-3 {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 0.7rem;
+    padding: 0.6rem;
+    height: 5rem;
+    width: 7rem;
+  }
+  .card-2 {
+    font-size: 0.7rem;
+    padding: 0.6rem;
+    height: 5rem;
+    width: 7rem;
+
+  }
+
+  
+  
+  
+  
+}
